@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="playC"
+        android:background="@color/red"
+        android:id="@+id/c_key"
+        style="@style/KeyStyle"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="playD"
+        android:background="@color/orange"
+        android:id="@+id/d_key"
+        style="@style/KeyStyle"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="playE"
+        android:background="@color/yellow"
+        android:id="@+id/e_key"
+        style="@style/KeyStyle"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="playF"
+        android:background="@color/green"
+        android:id="@+id/f_key"
+        style="@style/KeyStyle"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="playG"
+        android:background="@color/turquoise"
+        android:id="@+id/g_key"
+        style="@style/KeyStyle"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="playA"
+        android:background="@color/blue"
+        android:id="@+id/a_key"
+        style="@style/KeyStyle"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="playB"
+        android:background="@color/purple"
+        android:id="@+id/b_key"
+        style="@style/KeyStyle"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+
+</LinearLayout>
